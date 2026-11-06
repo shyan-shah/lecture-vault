@@ -1,0 +1,18 @@
+{
+  "semester_start": "2026-09-28",
+  "modules": {
+    "ME32029": {
+      "name": "Heat Transfer",
+      "lecturer": "",
+      "aliases": ["Heat Transfer"],
+      "assessment": {"exam": true, "coursework": false, "weekly_tutorials": true}
+    },
+    "ME32027": {
+      "name": "Engineering Management",
+      "lecturer": "",
+      "aliases": ["Engineering Management"],
+      "assessment": {"exam": false, "coursework": true, "weekly_tutorials": false}
+    }
+  },
+  "watch_folders": []
+}

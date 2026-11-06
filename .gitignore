@@ -1,0 +1,29 @@
+# Personal settings and secrets: written by setup_wizard.py, never commit
+.env
+config.json
+
+# Sign-in sessions (contain login cookies)
+.browser-profile*/
+.panopto-cookies.json
+.moodle-token.json
+
+# Your data: database, notes, downloaded course files, logs
+lectures.db*
+state.json
+notes/
+materials/
+manual/
+_to_delete/
+*.log
+.timetable-cache.ics
+timetable.ics
+
+# Python / local
+.venv/
+__pycache__/
+*.pyc
+.backup*
+*.backup-*
+
+# Private: every instruction the app gives Claude. Shared directly, never published.
+prompts.py

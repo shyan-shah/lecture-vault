@@ -1,0 +1,5 @@
+# Optional: local transcription for lectures Panopto never captions.
+# ffmpeg comes bundled through imageio-ffmpeg; runs on the CPU (WHISPER_DEVICE=cuda to use an NVIDIA GPU).
+faster-whisper>=1.0
+imageio-ffmpeg>=0.5
+numpy>=1.26
